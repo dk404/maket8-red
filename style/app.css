@@ -1,3 +1,37 @@
+@import url(fonts.css);
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  font-size: 14px;
+  font-family: "MuseoSans-Normal"; }
 
+header {
+  min-height: 100vh;
+  background: url("../img/Rectangle-15.jpg") no-repeat center/cover; }
+  header > .wr {
+    max-width: 1140px;
+    margin: 0 auto;
+    min-height: inherit;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    box-sizing: border-box; }
+    header > .wr > nav {
+      width: 100%;
+      text-align: right;
+      padding-top: 30px; }
+      header > .wr > nav a {
+        display: inline-block;
+        margin-left: 25px;
+        font-size: 12px;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: "MuseoSans-Bold"; }
+        header > .wr > nav a:hover, header > .wr > nav a.active {
+          color: #1a1a1a; }
 
 /*# sourceMappingURL=app.css.map */

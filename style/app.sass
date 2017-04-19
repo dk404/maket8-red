@@ -1,2 +1,50 @@
 @charset "utf-8"
+@import "fonts.css", "settings"
+
+html, body
+  margin: 0
+  padding: 0
+  height: 100%
+  min-height: 100%
+  font-size: 14px
+  font-family: 'MuseoSans-Normal'
+
+
+header
+  min-height: 100vh
+  background: url("../img/Rectangle-15.jpg") no-repeat center / cover
+
+  &>.wr
+    max-width: 1140px
+    margin: 0 auto
+    min-height: inherit
+    display: flex
+    align-items: flex-start
+    flex-wrap: wrap
+    padding: 0 20px
+    box-sizing: border-box
+
+
+    &>nav
+      width: 100%
+      text-align: right
+      padding-top: 30px
+
+      a
+        display: inline-block
+        margin-left: 25px
+        font-size: 12px
+        color: white
+        text-transform: uppercase
+        text-decoration: none
+        font-family: 'MuseoSans-Bold'
+
+        &:hover, &.active
+          color: $dark_gray
+
+
+    &>.cont
+
+
+
 
