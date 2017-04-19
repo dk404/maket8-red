@@ -1,4 +1,10 @@
 @import url(fonts.css);
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
 html, body {
   margin: 0;
   padding: 0;
@@ -66,5 +72,74 @@ header {
         text-decoration: none; }
         header > .wr > .cont .btn:hover, header > .wr > .cont .btn.active {
           background-color: #272727; }
+
+#inquire {
+  padding: 50px 0;
+  background: #1a1a1a; }
+  #inquire > .wr {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center; }
+    #inquire > .wr > .text {
+      color: #bababa; }
+    #inquire > .wr > .btn {
+      background-color: #bf1c22;
+      padding: 6px 45px;
+      border-radius: 22px;
+      color: white;
+      text-decoration: none; }
+      #inquire > .wr > .btn:first-letter {
+        text-transform: uppercase; }
+      #inquire > .wr > .btn:hover, #inquire > .wr > .btn.active {
+        background-color: #d51f26; }
+
+#the-platform {
+  position: relative; }
+  #the-platform > .wr {
+    max-width: 1140px;
+    margin: 100px auto;
+    position: relative; }
+    #the-platform > .wr > .for-title {
+      text-align: center; }
+    #the-platform > .wr h3 {
+      color: #1a1a1a;
+      font-size: 28px;
+      margin: 0 0 15px 0; }
+      #the-platform > .wr h3 b {
+        font-family: "MuseoSans-Bold"; }
+    #the-platform > .wr h4 {
+      color: #5b5b5b;
+      font-size: 16px;
+      margin-top: 0; }
+    #the-platform > .wr > .items {
+      position: relative;
+      margin-top: 100px; }
+      #the-platform > .wr > .items .rou {
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start; }
+        #the-platform > .wr > .items .rou:nth-child(even) {
+          flex-direction: row-reverse; }
+        #the-platform > .wr > .items .rou:last-child {
+          margin-bottom: 0; }
+        #the-platform > .wr > .items .rou > .col {
+          flex: 1;
+          margin: 0 20px; }
+          #the-platform > .wr > .items .rou > .col > img {
+            max-width: 350px; }
+          #the-platform > .wr > .items .rou > .col > p {
+            font-size: 14px;
+            line-height: 1.7; }
+          #the-platform > .wr > .items .rou > .col .forLogos {
+            display: flex;
+            align-items: center; }
+            #the-platform > .wr > .items .rou > .col .forLogos img {
+              margin-right: 20px;
+              opacity: 0.5; }
 
 /*# sourceMappingURL=app.css.map */

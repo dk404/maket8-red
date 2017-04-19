@@ -80,6 +80,102 @@ header
         &:hover, &.active
           background-color: lighten($dark_gray, 5%)
 
+#inquire
+  padding: 50px 0
+  background: $dark_gray
+
+  &>.wr
+    display: flex
+    max-width: 1000px
+    margin: 0 auto
+    padding: 0 20px
+    box-sizing: border-box
+    justify-content: space-between
+    align-items: center
+
+    &>.text
+      color: $gray
+
+    &>.btn
+      background-color: $red
+      padding: 6px 45px
+      border-radius: 22px
+      color: white
+      text-decoration: none
+
+      &:first-letter
+        text-transform: uppercase
+
+      &:hover, &.active
+        background-color: lighten($red, 5%)
+
+#the-platform
+  position: relative
+
+  &>.wr
+    max-width: $maw
+    margin: 100px auto
+    position: relative
+
+    &>.for-title
+      text-align: center
+
+    h3
+      color: $dark_gray
+      font-size: 28px
+      margin: 0 0 15px 0
+
+      b
+        font-family: 'MuseoSans-Bold'
+    h4
+      color: #5b5b5b
+      font-size: 16px
+      margin-top: 0
+    &>.items
+      position: relative
+      margin-top: 100px
+
+      .rou
+        margin-bottom: 100px
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+
+        &:nth-child(even)
+          flex-direction: row-reverse
+
+
+        &:last-child
+          margin-bottom: 0
+
+        &>.col
+          flex: 1
+          margin: 0 20px
+
+          &>img
+            max-width: 350px
+          &>p
+            font-size: 14px
+            line-height: 1.7
+          .forLogos
+            display: flex
+            align-items: center
+
+            img
+              margin-right: 20px
+              opacity: 0.5
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
