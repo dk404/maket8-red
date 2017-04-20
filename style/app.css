@@ -1581,4 +1581,7 @@ footer {
           footer > .wr > .col.col3 a:hover {
             color: #e02e34; }
 
+[data-js-animate] {
+  opacity: 0; }
+
 /*# sourceMappingURL=app.css.map */
