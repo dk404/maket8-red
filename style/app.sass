@@ -165,6 +165,107 @@ header
               margin-right: 20px
               opacity: 0.5
 
+#project
+  position: relative
+  padding: 150px 0
+  background: linear-gradient(to right, #e3474e, #6f3235)
+
+  &>.wr
+    max-width: $maw
+    margin: 0 auto
+    display: flex
+    align-items: center
+    justify-content: space-between
+    color: white
+
+    &>.col1
+      flex-basis: 60%
+      margin-right: 30px
+
+      &>.forTitle
+        h3
+          font-size: 24px
+          font-family: 'MuseoSans-Light'
+
+          b
+            font-family: 'MuseoSans-Bold'
+        .note
+          font-size: 13px
+          font-style: italic
+      &>.name-of
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        &>.title
+          //flex-basis: 40%
+          color: $dark_gray
+          font-size: 18px
+          font-family: 'MuseoSans-Bold'
+          margin-right: 30px
+        &>.plus
+          height: 1px
+          position: relative
+          background: $gray
+          flex: 1
+
+          a
+            display: block
+            position: absolute
+            right: -10px
+            top: -19px
+            text-decoration: none
+            font-size: 18px
+            background: $red
+            color: white
+            border-radius: 50%
+            padding: 21px 15px
+            line-height: 0
+
+            &:hover
+              background-color: lighten($red, 5%)
+      &>.descr
+        font-size: 12px
+        max-width: 345px
+        line-height: 1.6
+    &>.col2
+      position: relative
+      flex: 1
+
+      &>.el
+        &>.sq
+          position: relative
+          padding-top: 100%
+          border: 1px dashed $gray
+          border-radius: 20px
+
+          &:hover
+            border-color: lighten(#b54b51, 10%)
+
+          &>.text
+            position: absolute
+            width: 100%
+            height: 100%
+            left: 0
+            top: 0
+            display: flex
+            align-items: center
+            justify-content: center
+            padding: 15px
+            box-sizing: border-box
+
+
+        //position: absolute
+        //width: 100%
+        //height: 100%
+        //top: 0
+        //left: 0
+
+
+
+
+
+
 
 
 

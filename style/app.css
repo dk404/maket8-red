@@ -5,6 +5,132 @@
 .text-center {
   text-align: center; }
 
+.mb0 {
+  margin-bottom: 0px; }
+
+.mt0 {
+  margin-top: 0px; }
+
+.mb5 {
+  margin-bottom: 5px; }
+
+.mt5 {
+  margin-top: 5px; }
+
+.mb10 {
+  margin-bottom: 10px; }
+
+.mt10 {
+  margin-top: 10px; }
+
+.mb15 {
+  margin-bottom: 15px; }
+
+.mt15 {
+  margin-top: 15px; }
+
+.mb20 {
+  margin-bottom: 20px; }
+
+.mt20 {
+  margin-top: 20px; }
+
+.mb25 {
+  margin-bottom: 25px; }
+
+.mt25 {
+  margin-top: 25px; }
+
+.mb30 {
+  margin-bottom: 30px; }
+
+.mt30 {
+  margin-top: 30px; }
+
+.mb35 {
+  margin-bottom: 35px; }
+
+.mt35 {
+  margin-top: 35px; }
+
+.mb40 {
+  margin-bottom: 40px; }
+
+.mt40 {
+  margin-top: 40px; }
+
+.mb45 {
+  margin-bottom: 45px; }
+
+.mt45 {
+  margin-top: 45px; }
+
+.mb50 {
+  margin-bottom: 50px; }
+
+.mt50 {
+  margin-top: 50px; }
+
+.mb55 {
+  margin-bottom: 55px; }
+
+.mt55 {
+  margin-top: 55px; }
+
+.mb60 {
+  margin-bottom: 60px; }
+
+.mt60 {
+  margin-top: 60px; }
+
+.mb65 {
+  margin-bottom: 65px; }
+
+.mt65 {
+  margin-top: 65px; }
+
+.mb70 {
+  margin-bottom: 70px; }
+
+.mt70 {
+  margin-top: 70px; }
+
+.mb75 {
+  margin-bottom: 75px; }
+
+.mt75 {
+  margin-top: 75px; }
+
+.mb80 {
+  margin-bottom: 80px; }
+
+.mt80 {
+  margin-top: 80px; }
+
+.mb85 {
+  margin-bottom: 85px; }
+
+.mt85 {
+  margin-top: 85px; }
+
+.mb90 {
+  margin-bottom: 90px; }
+
+.mt90 {
+  margin-top: 90px; }
+
+.mb95 {
+  margin-bottom: 95px; }
+
+.mt95 {
+  margin-top: 95px; }
+
+.mb100 {
+  margin-bottom: 100px; }
+
+.mt100 {
+  margin-top: 100px; }
+
 html, body {
   margin: 0;
   padding: 0;
@@ -141,5 +267,81 @@ header {
             #the-platform > .wr > .items .rou > .col .forLogos img {
               margin-right: 20px;
               opacity: 0.5; }
+
+#project {
+  position: relative;
+  padding: 150px 0;
+  background: linear-gradient(to right, #e3474e, #6f3235); }
+  #project > .wr {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white; }
+    #project > .wr > .col1 {
+      flex-basis: 60%;
+      margin-right: 30px; }
+      #project > .wr > .col1 > .forTitle h3 {
+        font-size: 24px;
+        font-family: "MuseoSans-Light"; }
+        #project > .wr > .col1 > .forTitle h3 b {
+          font-family: "MuseoSans-Bold"; }
+      #project > .wr > .col1 > .forTitle .note {
+        font-size: 13px;
+        font-style: italic; }
+      #project > .wr > .col1 > .name-of {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        #project > .wr > .col1 > .name-of > .title {
+          color: #1a1a1a;
+          font-size: 18px;
+          font-family: "MuseoSans-Bold";
+          margin-right: 30px; }
+        #project > .wr > .col1 > .name-of > .plus {
+          height: 1px;
+          position: relative;
+          background: #bababa;
+          flex: 1; }
+          #project > .wr > .col1 > .name-of > .plus a {
+            display: block;
+            position: absolute;
+            right: -10px;
+            top: -19px;
+            text-decoration: none;
+            font-size: 18px;
+            background: #bf1c22;
+            color: white;
+            border-radius: 50%;
+            padding: 21px 15px;
+            line-height: 0; }
+            #project > .wr > .col1 > .name-of > .plus a:hover {
+              background-color: #d51f26; }
+      #project > .wr > .col1 > .descr {
+        font-size: 12px;
+        max-width: 345px;
+        line-height: 1.6; }
+    #project > .wr > .col2 {
+      position: relative;
+      flex: 1; }
+      #project > .wr > .col2 > .el > .sq {
+        position: relative;
+        padding-top: 100%;
+        border: 1px dashed #bababa;
+        border-radius: 20px; }
+        #project > .wr > .col2 > .el > .sq:hover {
+          border-color: #c46f74; }
+        #project > .wr > .col2 > .el > .sq > .text {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          left: 0;
+          top: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 15px;
+          box-sizing: border-box; }
 
 /*# sourceMappingURL=app.css.map */
