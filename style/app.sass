@@ -57,7 +57,7 @@ header
       .t2
         color: white
         font-size: 30px
-        line-height: 24px
+        //line-height: 24px
         text-transform: uppercase
         margin: 40px 0
 
@@ -94,15 +94,25 @@ header
     justify-content: space-between
     align-items: center
 
+    @media (max-width: $medium_screen)
+      justify-content: center
+      flex-wrap: wrap
+
+      &>.btn
+        margin-top: 25px
+        margin-left: 0
+
     &>.text
       color: $gray
 
     &>.btn
+      display: block
       background-color: $red
       padding: 6px 45px
       border-radius: 22px
       color: white
       text-decoration: none
+      margin-left: 20px
 
       &:first-letter
         text-transform: uppercase
@@ -117,6 +127,8 @@ header
     max-width: $maw
     margin: 100px auto
     position: relative
+    box-sizing: border-box
+    padding: 0 20px
 
     &>.for-title
       text-align: center
@@ -136,11 +148,22 @@ header
       position: relative
       margin-top: 100px
 
+      @media (max-width: $medium_screen)
+        padding-left: 30px
+
       .rou
         margin-bottom: 100px
         display: flex
         justify-content: space-between
         align-items: flex-start
+        flex-wrap: wrap
+
+        @media (max-width: $medium_screen)
+          display: block
+
+          &>.col > img
+            margin-bottom: 25px
+
 
         &:nth-child(even)
           flex-direction: row-reverse
@@ -154,13 +177,14 @@ header
           margin: 0 30px
 
           &>img
-            max-width: 350px
+            max-width: 100%
           &>p
             max-width: 485px
             font-size: 14px
             line-height: 1.7
           .forLogos
             display: flex
+            flex-wrap: wrap
             align-items: center
 
             img
@@ -173,6 +197,10 @@ header
         background: $gray
         top: 0
         left: calc(50% - 1px)
+
+        @media (max-width: $medium_screen)
+          left: 10px
+
 
         &>.cont
           $size: 32px
@@ -205,13 +233,28 @@ header
   padding: 150px 0
   background: linear-gradient(to right, #e3474e, #6f3235)
 
+  @media (max-width: $medium_screen)
+    padding: 100px 0
+
+
   &>.wr
     max-width: $maw
     margin: 0 auto
+    padding: 0 20px
+    box-sizing: border-box
+
     display: flex
     align-items: center
     justify-content: space-between
+    flex-wrap: wrap
     color: white
+
+    @media (max-width: $medium_screen)
+      display: block
+
+      &>.col2
+        margin-top: 25px
+
 
     &>.col1
       flex-basis: 60%
@@ -312,12 +355,17 @@ header
     &>.rou
       display: flex
       justify-content: space-between
+      flex-wrap: wrap
 
       &>.col
         max-width: 435px
         padding: 0 20px
         box-sizing: border-box
         text-align: center
+
+        @media (max-width: $medium_screen)
+          max-width: 100%
+
 
         &>.forAvatar
           width: 194px
@@ -333,7 +381,6 @@ header
 
             &:before
               transform: rotate(360deg)
-
 
           &:before
             content: ''
@@ -352,9 +399,12 @@ header
             height: 100%
             background: no-repeat center / cover
             border-radius: 50%
+
         &>.forName
           color: #0f1017
           font-size: 26px
+
+
 
         &>.prof
           font-size: 16px
@@ -362,6 +412,9 @@ header
         &>.descr
           margin-top: 25px
           line-height: 1.5
+
+        @media (max-width: $medium_screen)
+          margin-bottom: 50px
 
 footer
   background: $dark_gray
@@ -375,6 +428,16 @@ footer
     display: flex
     justify-content: space-between
     align-items: flex-start
+    flex-wrap: wrap
+
+    @media (max-width: $medium_screen)
+      display: block
+
+      &>.col
+        padding: 0 !important
+        margin-bottom: 25px
+        border-right: 0 !important
+
 
     &>.col
       flex: 1
@@ -428,6 +491,11 @@ footer
           outline: none
           width: 100%
           box-sizing: border-box
+
+          @media (max-width: $medium_screen)
+            max-width: 280px
+
+
       &.col3
         color: #7d7d7c
         .text

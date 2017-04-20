@@ -1261,7 +1261,6 @@ header {
       header > .wr > .cont .t2 {
         color: white;
         font-size: 30px;
-        line-height: 24px;
         text-transform: uppercase;
         margin: 40px 0; }
       header > .wr > .cont .descr {
@@ -1294,14 +1293,23 @@ header {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center; }
+    @media (max-width: 768px) {
+      #inquire > .wr {
+        justify-content: center;
+        flex-wrap: wrap; }
+        #inquire > .wr > .btn {
+          margin-top: 25px;
+          margin-left: 0; } }
     #inquire > .wr > .text {
       color: #bababa; }
     #inquire > .wr > .btn {
+      display: block;
       background-color: #bf1c22;
       padding: 6px 45px;
       border-radius: 22px;
       color: white;
-      text-decoration: none; }
+      text-decoration: none;
+      margin-left: 20px; }
       #inquire > .wr > .btn:first-letter {
         text-transform: uppercase; }
       #inquire > .wr > .btn:hover, #inquire > .wr > .btn.active {
@@ -1312,7 +1320,9 @@ header {
   #the-platform > .wr {
     max-width: 1140px;
     margin: 100px auto;
-    position: relative; }
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 20px; }
     #the-platform > .wr > .for-title {
       text-align: center; }
     #the-platform > .wr h3 {
@@ -1328,11 +1338,20 @@ header {
     #the-platform > .wr > .items {
       position: relative;
       margin-top: 100px; }
+      @media (max-width: 768px) {
+        #the-platform > .wr > .items {
+          padding-left: 30px; } }
       #the-platform > .wr > .items .rou {
         margin-bottom: 100px;
         display: flex;
         justify-content: space-between;
-        align-items: flex-start; }
+        align-items: flex-start;
+        flex-wrap: wrap; }
+        @media (max-width: 768px) {
+          #the-platform > .wr > .items .rou {
+            display: block; }
+            #the-platform > .wr > .items .rou > .col > img {
+              margin-bottom: 25px; } }
         #the-platform > .wr > .items .rou:nth-child(even) {
           flex-direction: row-reverse; }
         #the-platform > .wr > .items .rou:last-child {
@@ -1341,13 +1360,14 @@ header {
           flex: 1;
           margin: 0 30px; }
           #the-platform > .wr > .items .rou > .col > img {
-            max-width: 350px; }
+            max-width: 100%; }
           #the-platform > .wr > .items .rou > .col > p {
             max-width: 485px;
             font-size: 14px;
             line-height: 1.7; }
           #the-platform > .wr > .items .rou > .col .forLogos {
             display: flex;
+            flex-wrap: wrap;
             align-items: center; }
             #the-platform > .wr > .items .rou > .col .forLogos img {
               margin-right: 20px;
@@ -1359,6 +1379,9 @@ header {
         background: #bababa;
         top: 0;
         left: calc(50% - 1px); }
+        @media (max-width: 768px) {
+          #the-platform > .wr > .items > .red-dot {
+            left: 10px; } }
         #the-platform > .wr > .items > .red-dot > .cont {
           position: absolute;
           background: white;
@@ -1383,13 +1406,24 @@ header {
   position: relative;
   padding: 150px 0;
   background: linear-gradient(to right, #e3474e, #6f3235); }
+  @media (max-width: 768px) {
+    #project {
+      padding: 100px 0; } }
   #project > .wr {
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     color: white; }
+    @media (max-width: 768px) {
+      #project > .wr {
+        display: block; }
+        #project > .wr > .col2 {
+          margin-top: 25px; } }
     #project > .wr > .col1 {
       flex-basis: 60%;
       margin-right: 30px; }
@@ -1473,12 +1507,16 @@ header {
         line-height: 1.5; }
     #team > .wr > .rou {
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between;
+      flex-wrap: wrap; }
       #team > .wr > .rou > .col {
         max-width: 435px;
         padding: 0 20px;
         box-sizing: border-box;
         text-align: center; }
+        @media (max-width: 768px) {
+          #team > .wr > .rou > .col {
+            max-width: 100%; } }
         #team > .wr > .rou > .col > .forAvatar {
           width: 194px;
           height: 194px;
@@ -1514,6 +1552,9 @@ header {
         #team > .wr > .rou > .col > .descr {
           margin-top: 25px;
           line-height: 1.5; }
+        @media (max-width: 768px) {
+          #team > .wr > .rou > .col {
+            margin-bottom: 50px; } }
 
 footer {
   background: #1a1a1a;
@@ -1525,7 +1566,15 @@ footer {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; }
+    align-items: flex-start;
+    flex-wrap: wrap; }
+    @media (max-width: 768px) {
+      footer > .wr {
+        display: block; }
+        footer > .wr > .col {
+          padding: 0 !important;
+          margin-bottom: 25px;
+          border-right: 0 !important; } }
     footer > .wr > .col {
       flex: 1;
       padding: 0 35px;
@@ -1570,6 +1619,9 @@ footer {
         outline: none;
         width: 100%;
         box-sizing: border-box; }
+        @media (max-width: 768px) {
+          footer > .wr > .col.col2 [type="email"] {
+            max-width: 280px; } }
       footer > .wr > .col.col3 {
         color: #7d7d7c; }
         footer > .wr > .col.col3 .text {
