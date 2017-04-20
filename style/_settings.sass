@@ -24,3 +24,18 @@ $i: 0
 
   $i: $i + 5
 
+
+
+$i:0
+@while $i <= 360
+  .rotate-#{$i}
+
+    &:before
+      transform: rotate($i + deg)
+
+
+
+  $i: $i + 1
+
+
+
