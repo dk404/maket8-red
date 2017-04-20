@@ -151,11 +151,12 @@ header
 
         &>.col
           flex: 1
-          margin: 0 20px
+          margin: 0 30px
 
           &>img
             max-width: 350px
           &>p
+            max-width: 485px
             font-size: 14px
             line-height: 1.7
           .forLogos
@@ -165,6 +166,44 @@ header
             img
               margin-right: 20px
               opacity: 0.5
+      &>.red-dot
+        position: absolute
+        width: 1px
+        height: 100%
+        background: $gray
+        top: 0
+        left: calc(50% - 1px)
+
+        &>.cont
+          $size: 32px
+          $left: $size / 2
+
+          position: absolute
+          background: white
+          width: $size
+          height: $size
+          border: 1px solid $gray
+          border-radius: 50%
+          left: calc( 50% - 16px )
+          box-sizing: border-box
+
+          &:first-of-type
+            top: -4px
+        &>.dot
+          position: sticky
+
+          width: 24px
+          height: 24px
+          background: $red
+          //left: -12px
+          top: 30vh
+          margin-left: -12px
+          border-radius: 50%
+
+
+
+
+
 
 #project
   position: relative

@@ -1339,10 +1339,11 @@ header {
           margin-bottom: 0; }
         #the-platform > .wr > .items .rou > .col {
           flex: 1;
-          margin: 0 20px; }
+          margin: 0 30px; }
           #the-platform > .wr > .items .rou > .col > img {
             max-width: 350px; }
           #the-platform > .wr > .items .rou > .col > p {
+            max-width: 485px;
             font-size: 14px;
             line-height: 1.7; }
           #the-platform > .wr > .items .rou > .col .forLogos {
@@ -1351,6 +1352,32 @@ header {
             #the-platform > .wr > .items .rou > .col .forLogos img {
               margin-right: 20px;
               opacity: 0.5; }
+      #the-platform > .wr > .items > .red-dot {
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        background: #bababa;
+        top: 0;
+        left: calc(50% - 1px); }
+        #the-platform > .wr > .items > .red-dot > .cont {
+          position: absolute;
+          background: white;
+          width: 32px;
+          height: 32px;
+          border: 1px solid #bababa;
+          border-radius: 50%;
+          left: calc( 50% - 16px );
+          box-sizing: border-box; }
+          #the-platform > .wr > .items > .red-dot > .cont:first-of-type {
+            top: -4px; }
+        #the-platform > .wr > .items > .red-dot > .dot {
+          position: sticky;
+          width: 24px;
+          height: 24px;
+          background: #bf1c22;
+          top: 30vh;
+          margin-left: -12px;
+          border-radius: 50%; }
 
 #project {
   position: relative;
