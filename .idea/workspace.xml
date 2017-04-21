@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12c37051-6804-426c-a69b-514e527a585a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../maket3/.idea/.name" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../maket3/.idea/deployment.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../maket3/.idea/encodings.xml" afterPath="" />
@@ -345,18 +346,70 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../maket7/styles/loaders-on-scss-master/loaders/_loader10.scss" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../maket7/styles/loaders-on-scss-master/loaders/_loader11.scss" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../maket7/styles/loaders-on-scss-master/loaders/_loader12.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/_settings.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/app.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/app.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/_settings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/stile_.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/stile_.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/stile_.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style_.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSans.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSans.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansBlack/MuseoSansBlack.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansBlack/MuseoSansBlack.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansBlack/MuseoSansBlack.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansBlackItalic/MuseoSansBlackItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansBlackItalic/MuseoSansBlackItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansBlackItalic/MuseoSansBlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansBlackItalic/MuseoSansBlackItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansBold/MuseoSansBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansBold/MuseoSansBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansBold/MuseoSansBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansBoldItalic/MuseoSansBoldItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansBoldItalic/MuseoSansBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansBoldItalic/MuseoSansBoldItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansItalic/MuseoSansItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansItalic/MuseoSansItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansItalic/MuseoSansItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansLight/MuseoSansLight.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansLight/MuseoSansLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansLight/MuseoSansLight.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansLightItalic/MuseoSansLightItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansLightItalic/MuseoSansLightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansLightItalic/MuseoSansLightItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansMedium/MuseoSansMedium.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansMedium/MuseoSansMedium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansMedium/MuseoSansMedium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansMediumItalic/MuseoSansMediumItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansMediumItalic/MuseoSansMediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansMediumItalic/MuseoSansMediumItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansRegular/MuseoSansRegular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansRegular/MuseoSansRegular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MuseoSansRegular/MuseoSansRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontello-12e36dce.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/museosans-500.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Business.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Communication.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Idea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/JasonDoe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/JohnDoe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/NameOfElement.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Vector-Smart Object.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/communicationTechnology.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/header-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/header_image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index_red_website.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index_red_website_top_part.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/red-website.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../maket7/foundation-6.3.1-custom.zip" afterPath="$PROJECT_DIR$/../maket7/foundation-6.3.1-custom.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../maket7/.gitignore" afterPath="$PROJECT_DIR$/../maket7/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../maket7/index.html" afterPath="$PROJECT_DIR$/../maket7/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -367,7 +420,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -399,6 +463,7 @@
         <option value="$PROJECT_DIR$/style/_settings.sass" />
         <option value="$PROJECT_DIR$/style/app.sass" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -554,17 +619,18 @@
       <workItem from="1492630521530" duration="9048000" />
       <workItem from="1492683494089" duration="4545000" />
       <workItem from="1492702084153" duration="19536000" />
-      <workItem from="1492805058126" duration="2292000" />
+      <workItem from="1492805058126" duration="2318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40692000" />
+    <option name="totallyTimeSpent" value="40718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2540453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2540453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -728,14 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/_fonts.sass" />
     <entry file="file://$PROJECT_DIR$/style/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -779,6 +837,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="14" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="547" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
         </state>
       </provider>
