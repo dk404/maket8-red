@@ -1,122 +1,105 @@
 @charset "utf-8";
-@import "fonts", "settings";
+@import "settings";
 
-html, body{
-  padding: 0;
+html,body{
   margin: 0;
-  font-size: 14px;
-  font-family: 'MuseoSansCyrl-Normal';
+  padding: 0;
   height: 100%;
   min-height: 100%;
+  font-size: 14px;
+  font-family:'MuseoSans-Normal';
 }
 
 header{
   position: relative;
-  background: url("../img/Rectangle-15.jpg") no-repeat center / cover;
+  background: no-repeat center / cover;
   min-height: 100vh;
-
- /* &:before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: linear-gradient(to left, #703235, #e3474e);
-    opacity: 0.8;
-  }*/
 
   &>.wr{
     @extend %wr;
-    position: relative;
+    min-height: inherit;
     display: flex;
     flex-wrap: wrap;
-    min-height: inherit;
 
     nav{
       flex-basis: 100%;
       text-align: right;
-      padding-top: 35px;
+      padding-top: 24px;
 
       a{
-        font-size: 16px;
-        text-decoration: none;
+        display: inline-block;
         color: white;
-        text-transform: uppercase;
-        margin-left: 30px;
-        font-family: 'MuseoSansCyrl-Bold' ;
-
-
+        font-size: 14px;
+        font-family: 'MuseoSans-Bold';
+        text-decoration: none;
+        margin-right: 30px;
+        
         &:hover, &.active{
           color: $gray_dark;
+
         }
+
       }
     }
     &>.content{
       max-width: 960px;
       margin: 0 auto;
+      color: white;
       text-align: center;
 
       h1{
-        color: #edecec;
-        font-size: 44px;
         text-transform: uppercase;
-        opacity: 0.5;
-
+        color: $gray_light;
+        font-size: 38px;
+        opacity: .5;
+        font-family: 'MuseoSans-Light';
       }
       h2{
-        color: white;
-        font-size: 35px;
-
+        font-size: 30px;
       }
       &>.descr{
         font-size: 16px;
-        color: white;
       }
       &>.btn{
         display: inline-block;
         background: $gray_dark;
-        color: white;
+        padding: 9px 50px;
         border-radius: 30px;
-        padding: 10px 50px;
+        color: white;
         text-decoration: none;
-        margin-top: 85px;
+        font-size: 16px;
+        margin-top: 75px;
         
         &:hover{
           background-color: lighten($gray_dark, 5%);
         }
       }
     }
-
-
   }
 }
-#Inquire{
+#inquire{
   background: $gray_dark;
-  padding: 50px 0;
-
+  padding: 40px 0;
 
   &>.wr{
     @extend %wr;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 995px;
+    color: $gray_light;
 
-    .text{
-      color: $gray_light;
-    }
-    .btn{
+    &>.btn{
       display: inline-block;
-      background: $red;
-      color: white;
-      text-decoration: none;
-      padding: 8px 50px ;
       border-radius: 30px;
+      background: $red;
+      padding: 7px 50px;
+      text-decoration: none;
+      color: white;
 
+      &:hover{
+        background-color: lighten($red, 5%);
+      }
     }
+
   }
 }
-
-
-
