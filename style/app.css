@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'MuseoSansCyrl-Light';
+  src: local("MuseoSansCyrl-100"), url("https://nomail.com.ua/files/woff/1913b09835e902f7123ad3ac38b4cd93.woff") format("woff"); }
+@font-face {
+  font-family: 'MuseoSansCyrl-Normal';
+  src: local("MuseoSansCyrl-500"), url("https://nomail.com.ua/files/woff/02f7d6b8e3cda79742b374cbc5595a8f.woff") format("woff"); }
+@font-face {
+  font-family: 'MuseoSansCyrl-Bold';
+  src: local("MuseoSansCyrl-900"), url("https://nomail.com.ua/files/woff/73e5c73d4e80e6c080cd1bc5894cf3e8.woff") format("woff"); }
+header > .wr, #Inquire > .wr {
+  max-width: 1140px;
+  margin: 0 auto; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: 'MuseoSansCyrl-Normal';
+  height: 100%;
+  min-height: 100%; }
+
+header {
+  position: relative;
+  background: url("../img/Rectangle-15.jpg") no-repeat center/cover;
+  min-height: 100vh;
+  /* &:before{
+     content: '';
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     left: 0;
+     top: 0;
+     background: linear-gradient(to left, #703235, #e3474e);
+     opacity: 0.8;
+   }*/ }
+  header > .wr {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: inherit; }
+    header > .wr nav {
+      flex-basis: 100%;
+      text-align: right;
+      padding-top: 35px; }
+      header > .wr nav a {
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        margin-left: 30px;
+        font-family: "MuseoSansCyrl-Bold"; }
+        header > .wr nav a:hover, header > .wr nav a.active {
+          color: #1a1a1a; }
+    header > .wr > .content {
+      max-width: 960px;
+      margin: 0 auto;
+      text-align: center; }
+      header > .wr > .content h1 {
+        color: #edecec;
+        font-size: 44px;
+        text-transform: uppercase;
+        opacity: 0.5; }
+      header > .wr > .content h2 {
+        color: white;
+        font-size: 35px; }
+      header > .wr > .content > .descr {
+        font-size: 16px;
+        color: white; }
+      header > .wr > .content > .btn {
+        display: inline-block;
+        background: #1a1a1a;
+        color: white;
+        border-radius: 30px;
+        padding: 10px 50px;
+        text-decoration: none;
+        margin-top: 85px; }
+        header > .wr > .content > .btn:hover {
+          background-color: #272727; }
+
+#Inquire {
+  background: #1a1a1a;
+  padding: 50px 0; }
+  #Inquire > .wr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 995px; }
+    #Inquire > .wr .text {
+      color: #edecec; }
+    #Inquire > .wr .btn {
+      display: inline-block;
+      background: #bf1c22;
+      color: white;
+      text-decoration: none;
+      padding: 8px 50px;
+      border-radius: 30px; }
+
+/*# sourceMappingURL=app.css.map */
