@@ -126,6 +126,7 @@ header{
       margin-top: 0;
     }
     &>.items{
+      position: relative;
       margin-top: 65px;
 
       &>.row{
@@ -154,7 +155,36 @@ header{
           }
         }
       }
+      &>.red-dot{
+        position: absolute;
+        left: 50%;
+        top: 0;
+        width: 1px;
+        background: $gray_light2;
+        height: 100%;
+
+        &>.cont{
+          width: 33px;
+          height: 33px;
+          position: absolute;
+          background: white;
+          border: 1px solid $gray_light2;
+          left: -17px;
+          top: -5px;
+          border-radius: 50%;
+        }
+        &>.dot{
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          position: sticky;
+          top: 30vh;
+          margin-left: -12px;
+          background: $red;
+        }
+      }
     }
+
   }
 }
 #product{
