@@ -92,6 +92,11 @@ header{
     align-items: center;
     color: $gray_light;
 
+    @media (max-width: $medium_size) {
+      display:block;
+      text-align: center;
+    }
+
     &>.btn{
       display: inline-block;
       border-radius: 30px;
@@ -99,6 +104,11 @@ header{
       padding: 7px 50px;
       text-decoration: none;
       color: white;
+
+      @media (max-width: $medium_size) {
+        margin-top: 25px;
+      }
+
 
       &:hover{
         background-color: lighten($red, 5%);
@@ -126,14 +136,23 @@ header{
       margin-top: 0;
     }
     &>.items{
-      position: relative;
       margin-top: 65px;
+      position:relative;
+
+      @media (max-width: $medium_size) {
+        padding-left: 35px;
+      }
 
       &>.row{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 50px;
+
+        @media (max-width: $medium_size) {
+          display:block;
+
+        }
 
         &:nth-child(even){
           flex-direction: row-reverse;
@@ -153,34 +172,55 @@ header{
             font-size: 13px;
             line-height: 1.7;
           }
+          .icons{
+            margin-top: 35px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            opacity: 0.5;
+
+            img{
+              max-width: 100%;
+              margin-right: 15px;
+
+              &:last-child{
+                margin-right: 0;
+              }
+            }
+
+          }
         }
       }
       &>.red-dot{
         position: absolute;
+        width: 1px; height: 100%;
+        background: $gray_light2;
         left: 50%;
         top: 0;
-        width: 1px;
-        background: $gray_light2;
-        height: 100%;
+
+        @media (max-width: $medium_size) {
+          left: 20px;
+        }
 
         &>.cont{
+          position: absolute;
           width: 33px;
           height: 33px;
-          position: absolute;
-          background: white;
-          border: 1px solid $gray_light2;
           left: -17px;
           top: -5px;
           border-radius: 50%;
+          border: 1px solid $gray_light2;
+          background: white;
+
         }
         &>.dot{
+          position: sticky;
           width: 25px;
           height: 25px;
-          border-radius: 50%;
-          position: sticky;
-          top: 30vh;
           margin-left: -12px;
+          top: 30vh;
           background: $red;
+          border-radius: 50%;
         }
       }
     }
@@ -200,12 +240,20 @@ header{
     justify-content: space-between;
     align-items: center;
 
+    @media (max-width: $medium_size) {
+      display:block;
+    }
+
     &>.col{
 
 
       &.col-1{
         flex-basis: 65%;
         margin-right: 30px;
+
+        @media (max-width: $medium_size) {
+          margin-bottom: 35px;
+        }
 
         &>.row-1{
           h2{
@@ -339,6 +387,7 @@ header{
         padding:0 30px;
         color: $gray_dark;
         text-align: center;
+        margin: 0 0 50px 0;
 
 
         &>.for-photo{
@@ -366,6 +415,7 @@ header{
             height: 100%;
             background: url("../img/avatar-wr.jpg") no-repeat center / contain;
             transition: all 0.3s ease;
+            border-radius: 34%;
           }
           &>.photo{
             position: relative;
@@ -407,10 +457,19 @@ footer{
     align-items: flex-start;
     flex-wrap: wrap;
 
+    @media (max-width: $medium_size) {
+      display:block;
+    }
+
     &>.col{
       min-height: 100px;
       border-right: 1px solid $gray;
       padding: 0 35px;
+
+      @media (max-width: $medium_size) {
+        border: 0;
+        padding: 0;
+      }
 
       &.grow{
         flex: 1;
@@ -426,6 +485,7 @@ footer{
         text-transform: uppercase;
         font-family: 'MuseoSans-Bold' ;
         color: $gray;
+        margin-top: 0;
       }
 
       &>.social{
@@ -447,14 +507,17 @@ footer{
 
       }
       input[type='text']{
+        display:block;
         outline: none;
         background-color: #323232;
         border-radius: 5px;
         border: 0;
         padding: 10px 15px;
         box-shadow: inset 4.2px -2.7px 5px rgba(0, 1, 1, 0.2);
-        min-width: 320px;
+        max-width: 320px;
         box-sizing: border-box;
+
+
       }
       &.col-3{
         flex: 2;
@@ -480,4 +543,8 @@ footer{
       }
     }
   }
+}
+
+[data-js-animation]{
+  opacity: 0;
 }

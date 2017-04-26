@@ -1164,6 +1164,10 @@ header {
     justify-content: space-around;
     align-items: center;
     color: #edecec; }
+    @media (max-width: 768px) {
+      #inquire > .wr {
+        display: block;
+        text-align: center; } }
     #inquire > .wr > .btn {
       display: inline-block;
       border-radius: 30px;
@@ -1171,6 +1175,9 @@ header {
       padding: 7px 50px;
       text-decoration: none;
       color: white; }
+      @media (max-width: 768px) {
+        #inquire > .wr > .btn {
+          margin-top: 25px; } }
       #inquire > .wr > .btn:hover {
         background-color: #d51f26; }
 
@@ -1186,13 +1193,19 @@ header {
     text-align: center;
     margin-top: 0; }
   #platform > .wr > .items {
-    position: relative;
-    margin-top: 65px; }
+    margin-top: 65px;
+    position: relative; }
+    @media (max-width: 768px) {
+      #platform > .wr > .items {
+        padding-left: 35px; } }
     #platform > .wr > .items > .row {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       margin-bottom: 50px; }
+      @media (max-width: 768px) {
+        #platform > .wr > .items > .row {
+          display: block; } }
       #platform > .wr > .items > .row:nth-child(even) {
         flex-direction: row-reverse; }
       #platform > .wr > .items > .row > .col {
@@ -1205,30 +1218,44 @@ header {
         #platform > .wr > .items > .row > .col .text {
           font-size: 13px;
           line-height: 1.7; }
+        #platform > .wr > .items > .row > .col .icons {
+          margin-top: 35px;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          opacity: 0.5; }
+          #platform > .wr > .items > .row > .col .icons img {
+            max-width: 100%;
+            margin-right: 15px; }
+            #platform > .wr > .items > .row > .col .icons img:last-child {
+              margin-right: 0; }
     #platform > .wr > .items > .red-dot {
       position: absolute;
-      left: 50%;
-      top: 0;
       width: 1px;
+      height: 100%;
       background: #b7b7b7;
-      height: 100%; }
+      left: 50%;
+      top: 0; }
+      @media (max-width: 768px) {
+        #platform > .wr > .items > .red-dot {
+          left: 20px; } }
       #platform > .wr > .items > .red-dot > .cont {
+        position: absolute;
         width: 33px;
         height: 33px;
-        position: absolute;
-        background: white;
-        border: 1px solid #b7b7b7;
         left: -17px;
         top: -5px;
-        border-radius: 50%; }
+        border-radius: 50%;
+        border: 1px solid #b7b7b7;
+        background: white; }
       #platform > .wr > .items > .red-dot > .dot {
+        position: sticky;
         width: 25px;
         height: 25px;
-        border-radius: 50%;
-        position: sticky;
-        top: 30vh;
         margin-left: -12px;
-        background: #bf1c22; }
+        top: 30vh;
+        background: #bf1c22;
+        border-radius: 50%; }
 
 #product {
   position: relative;
@@ -1240,9 +1267,15 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center; }
+    @media (max-width: 768px) {
+      #product > .wr {
+        display: block; } }
     #product > .wr > .col.col-1 {
       flex-basis: 65%;
       margin-right: 30px; }
+      @media (max-width: 768px) {
+        #product > .wr > .col.col-1 {
+          margin-bottom: 35px; } }
       #product > .wr > .col.col-1 > .row-1 h2 {
         font-size: 30px;
         margin-bottom: 5px; }
@@ -1335,7 +1368,8 @@ header {
       flex: 1;
       padding: 0 30px;
       color: #1a1a1a;
-      text-align: center; }
+      text-align: center;
+      margin: 0 0 50px 0; }
       #team > .wr > .team-list > .col > .for-photo {
         position: relative;
         width: 150px;
@@ -1354,7 +1388,8 @@ header {
           width: 100%;
           height: 100%;
           background: url("../img/avatar-wr.jpg") no-repeat center/contain;
-          transition: all 0.3s ease; }
+          transition: all 0.3s ease;
+          border-radius: 34%; }
         #team > .wr > .team-list > .col > .for-photo > .photo {
           position: relative;
           width: 100%;
@@ -1383,10 +1418,17 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap; }
+    @media (max-width: 768px) {
+      footer > .wr {
+        display: block; } }
     footer > .wr > .col {
       min-height: 100px;
       border-right: 1px solid #727272;
       padding: 0 35px; }
+      @media (max-width: 768px) {
+        footer > .wr > .col {
+          border: 0;
+          padding: 0; } }
       footer > .wr > .col.grow {
         flex: 1; }
       footer > .wr > .col:first-child {
@@ -1397,7 +1439,8 @@ footer {
       footer > .wr > .col h3 {
         text-transform: uppercase;
         font-family: "MuseoSans-Bold";
-        color: #727272; }
+        color: #727272;
+        margin-top: 0; }
       footer > .wr > .col > .social {
         display: inline-flex;
         width: 35px;
@@ -1412,13 +1455,14 @@ footer {
         footer > .wr > .col > .social:hover {
           background: #3f3f3f; }
       footer > .wr > .col input[type='text'] {
+        display: block;
         outline: none;
         background-color: #323232;
         border-radius: 5px;
         border: 0;
         padding: 10px 15px;
         box-shadow: inset 4.2px -2.7px 5px rgba(0, 1, 1, 0.2);
-        min-width: 320px;
+        max-width: 320px;
         box-sizing: border-box; }
       footer > .wr > .col.col-3 {
         flex: 2; }
@@ -1431,5 +1475,8 @@ footer {
               color: #bf1c22; }
         footer > .wr > .col.col-3 > .copy {
           margin-top: 50px; }
+
+[data-js-animation] {
+  opacity: 0; }
 
 /*# sourceMappingURL=app.css.map */

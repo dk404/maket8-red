@@ -5,6 +5,7 @@
     <title></title>
     <link rel="shortcut icon" href=""/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" type="text/css" href="style/app.css"/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -38,15 +39,15 @@
         <a href="#" class="btn">Inquire</a>
     </div>
 </section>
-<section id="platform">
+<section id="platform" data-js-animation="bounceInUp">
     <div class="wr">
         <h2>The <b>Platform</b></h2>
         <h3>We call her HYDRA</h3>
 
         <div class="items">
             <div class="row">
-                <div class="col"><img src="img/1.jpg" ></div>
-                <div class="col">
+                <div class="col" data-js-animation="bounceInLeft"><img src="img/1.jpg" ></div>
+                <div class="col" data-js-animation="bounceInRight">
                     <h4>Lorem ipsum dolor sit amet, consectetur.</h4>
                     <div class="text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut autem
@@ -56,8 +57,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col"><img src="img/2.jpg" ></div>
-                <div class="col">
+                <div class="col" data-js-animation="bounceInRight"><img src="img/2.jpg" ></div>
+                <div class="col" data-js-animation="bounceInLeft">
                     <h4>Lorem ipsum dolor sit amet, consectetur.</h4>
                     <div class="text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut autem
@@ -67,16 +68,25 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col"><img src="img/3.jpg" ></div>
-                <div class="col">
+                <div class="col" data-js-animation="bounceInLeft"><img src="img/3.jpg" ></div>
+                <div class="col" data-js-animation="bounceInRight">
                     <h4>Lorem ipsum dolor sit amet, consectetur.</h4>
                     <div class="text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut autem
                         consectetur dolor ducimus esse fugiat incidunt minus obcaecati omnis porro quidem quisquam
                         similique suscipit tempora tenetur unde veritatis, voluptates?
                     </div>
+
+                    <div class="icons">
+                        <img src="img/wifi.jpg" alt="">
+                        <img src="img/bluetooth.jpg" alt="">
+                        <img src="img/4g.jpg" alt="">
+                        <img src="img/UHF.jpg" alt="">
+                        <img src="img/wifi2.jpg" alt="">
+                    </div>
                 </div>
             </div>
+
             <div class="red-dot">
                 <div class="cont"></div>
                 <div class="cont"></div>
@@ -86,9 +96,9 @@
         </div>
     </div>
 </section>
-<section id="product">
+<section id="product" data-js-animation="bounceInUp">
     <div class="wr">
-        <div class="col col-1">
+        <div class="col col-1" data-js-animation="bounceInLeft">
             <div class="row-1">
                 <h2><b>Lorem</b> ipsum.</h2>
                 <div class="note">Select icons to display additional information</div>
@@ -103,7 +113,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur cum, debitis delectus doloremque dolores enim et facere impedit labore minima nemo nisi nostrum pariatur provident qui quibusdam quos saepe?
             </div>
         </div>
-        <div class="col col-2">
+        <div class="col col-2" data-js-animation="bounceInRight">
             <div class="square">
                 <div class="cont">
                     <div class="text">
@@ -116,7 +126,7 @@
         </div>
     </div>
 </section>
-<section id="team">
+<section id="team" data-js-animation="bounceInUp">
     <div class="wr">
         <div class="for-title">
             <h2>Lorem ipsum dolor sit amet, <b>consectetur adipisicing.</b></h2>
@@ -126,10 +136,10 @@
             </div>
         </div>
         <div class="team-list">
-            <div class="col">
+            <div class="col" data-js-animation="bounceInLeft">
                 <div class="for-photo">
                     <div class="bd"></div>
-                    <div class="photo" style="background-image:url(http://lorempixel.com/150/150/people/);"></div>
+                    <div class="photo" style="background-image:url(img/girl1.jpg);"></div>
                 </div>
 
                 <div class="nick">Lorem ipsum.</div>
@@ -140,10 +150,10 @@
                 </div>
 
             </div>
-            <div class="col">
+            <div class="col" data-js-animation="bounceInRight">
                 <div class="for-photo">
                     <div class="bd rotate-250"></div>
-                    <div class="photo" style="background-image:url(http://lorempixel.com/150/150/people/);"></div>
+                    <div class="photo" style="background-image:url(img/girl2.jpg);"></div>
                 </div>
 
                 <div class="nick">Lorem ipsum.</div>
@@ -157,9 +167,9 @@
         </div>
     </div>
 </section>
-<footer>
+<footer data-js-animation="bounceInUp">
     <div class="wr">
-        <div class="col col-1 grow">
+        <div class="col col-1 grow" >
             <h3>connect</h3>
             <a href="#" class="social"><span class="socicon-facebook"></span></a>
             <a href="#" class="social"><span class="socicon-twitter"></span></a>
@@ -188,6 +198,7 @@
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/is-in-viewport/3.0.0/isInViewport.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
