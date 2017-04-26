@@ -18,4 +18,11 @@
 $gray_dark: #1a1a1a;
 $gray_light: #edecec;
 $red: #bf1c22;
+$gray: #727272;
+
+
+//
+@for $i from 0 through 360{
+  .rotate-#{$i}{transform: rotate($i + deg);}
+}
 
